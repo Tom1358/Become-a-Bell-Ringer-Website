@@ -32,12 +32,40 @@ body {
 
 .menu li a {
     color: #fff;
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    text-decoration: underline;
+}
+
+#active {
+    text-decoration: underline;
+}
+
+/*---------------------Hero image-------------------*/
+
+.hero-image {
+    position: fixed;
+    top: 50px;
+    width: 100%;
+}
+
+.bell_tower {
+    position: relative;
+    background-size: cover;
+    width: 100%;
 }
 
 /*---------------------footer-------------------*/
 
 .social-networks {
-  text-align: center;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  margin: 0;
+  background-color: #696969;
 }
 
 .social-networks li{
@@ -47,6 +75,7 @@ body {
 .social-networks i {
   font-size: 160%;
   margin: 1%;
-  padding: 5%;
-  color: #696969;
+  padding: 0;
+  color: #fff;
+  float: right;
 }
