@@ -1,45 +1,67 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Become a Bell Ringer Website
 
-Welcome Tom1358,
+<!-- VIEW THE LIVE PROJECT HERE-->
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+Bell ringing, and campanology, is a hobby that is struggling with dwindling numbers, and yet offers an experience that is surprisingly welcoming and accommodating to a range of people, particularly those who may not fit in with typical sporting or other physically demanding activities.  
+The activity would benefit from a central website that would offer a basic introduction to the hobby, some key information about it historically and the benefits of regular ringing, and a contact form that gives information about the individual’s local ‘Change Ringing Association.’
 
-## Gitpod Reminders
+## UX
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+### As a **potential recruit** looking at the website, I want:
+* Large, intuitive and easy navigation that is consistent throughout the site, so I know how to get the key information I want, and how to find out more if I want (through links to external sites, or a contact email address or phone number/ form).
+* Some basic information on the subject of bell ringing, such as key terms to know if I go to an introductory practice night in a local tower.
+* How to find local towers in my area, and contact information for the Tower Captain, if I want to attend a practice night.
 
-`python3 -m http.server`
+### As an individual **interested in a new hobby**, I want:
+* An idea of the theory and study of bell ringing, to see what I can expect to have to study.
+* Information on different skill levels, to see how I can progress if I stick with it, and an idea of how long it would take to learn different things.
 
-A blue button should appear to click: *Make Public*,
+### As someone interested in the **social/ community** side of ringing, I want:
+* Information on the ringing community, and what bellringers do socially rather than just pull a rope, to see if it is a social scene I would be interested in.
+* A basic background into the history of ringing and how it has shaped communities.
 
-Another blue button should appear to click: *Open Browser*.
+### As a **member of the CCCBR** endorsing this website, I want:
+* It to provide an easily accessible hub for people to potentially find out about, and link with, their local ringing networks, which could ultimately increase the awareness of bell ringing as a bobby and increase the number of ringers.
+* It to be easily accessible to a range of ages and demographics – potentially children aged 11-16, university students, or older individuals in retirement.
+* It to have a clear, intuitive UI and provide a simple experience so people do not get overwhelmed with information.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+## Design
 
-A blue button should appear to click: *Make Public*,
+### Colour Scheme
+* The two main colours used are grey and white.
 
-Another blue button should appear to click: *Open Browser*.
+### Typography
+* The Fira Sans font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Fira Sans is a clean font that is simple and easily legible, but also classy; this was chosen as it has a professional and minimalist feel, without feeling overly showy.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+### Imagery
+* The large, background hero image was chosen to appeal to the key audiences (see user stories).  A variety of images showing the activity of bell ringing and also the social side was chosen for the gallery, again to appeal to a variety of people in the target audiences.
 
-## Updates Since The Instructional Video
+<!-- ## Wireframes -->
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+## Features
+* Responsive on all device sizes
+* Interactive elements
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+## Technologies Used
+* Motorola G6 – embedded camera:
+    *The developer’s camera was used to take various photos of the local church to use as the Hero Image and various photos in the Gallery page of the website.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+## Languages Used
+* HTML5
+* CSS3
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
---------
-
-Happy coding!
+## Frameworks, Libraries & Programs Used
+1. Bootstrap 5.0.0:
+    * Bootstrap was used to assist with the responsiveness and styling of the website.
+2.	Hover pseudoclass in CSS:
+    * Hover was used for each item in the navbar to add an underline element while being hovered over; this would add an element of responsiveness to the user whilst using the site.
+3.	Google Fonts:
+    * Google fonts were used to import the Fira Sans font into the style.css file which is used on all pages throughout the project.
+4.	Font Awesome:
+    * Font Awesome was used on all pages in the footer to make the links to social media more aesthetically pleasing, and to help improve the UX.
+5.	Git
+    * Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+6.	GitHub:
+    * GitHub is used to store the projects code after being pushed from Git.
+7.	Balsamiq:
+    * Balsamiq was used to create the wireframes during the design process.

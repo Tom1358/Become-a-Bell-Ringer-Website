@@ -44,6 +44,37 @@ body {
     text-decoration: underline;
 }
 
+/*-------------------- Adapting Bootstrap Navbar-------------*/
+
+.nav-link {
+    padding: 15px 0 0 70px;
+}
+
+.nav-tabs .nav-item.show .nav-link .nav-link.active {
+    color: #fafafa;
+    background-color: #696969;
+    border: none;
+    letter-spacing: 3px;
+    line-height: 1.5;
+    margin-top: 15px;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #fafafa;
+    background-color: #696969;
+    border: none;
+    letter-spacing: 3px;
+}
+
+.dropdown-menu {
+    margin-left: 50px;
+    z-index: 20;
+    color: #fafafa;
+    background-color: #696969;
+    letter-spacing: 3px;
+    border: none;
+}
+
 /*---------------------Misc-------------------*/
 
 
@@ -55,9 +86,8 @@ body {
     background-position: center;
     background-size: cover;
     width: 100%;
-    height: 100%;
+    height: 90%;
     top: 50px;
-    bottom: 50px;
     z-index: 10;
 }
 
