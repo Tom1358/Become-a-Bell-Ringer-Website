@@ -75,6 +75,12 @@ body {
     border: none;
 }
 
+.dropdown-item {
+    color: #fafafa;
+    background-color: #696969;
+    z-index: 20;
+}
+
 /*---------------------Misc-------------------*/
 
 
