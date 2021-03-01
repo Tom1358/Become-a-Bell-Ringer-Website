@@ -8,6 +8,8 @@
 
 body {
     font-family: 'Fira Sans', sans-serif;
+    background-color: rgba(221,185,103,.3);
+    color:black;
 }
 
 /*---------------------nav-bar-------------------*/
@@ -16,7 +18,8 @@ body {
     position: fixed;
     width: 100%;
     height: 50px;
-    background-color: #696969;
+    background-color: #230007;
+    border-bottom: solid 1px;
     z-index: 10;
 }
 
@@ -52,7 +55,7 @@ body {
 
 .nav-tabs .nav-item.show .nav-link .nav-link.active {
     color: #fafafa;
-    background-color: #696969;
+    background-color: #230007;
     border: none;
     letter-spacing: 3px;
     line-height: 1.5;
@@ -61,7 +64,7 @@ body {
 
 .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
     color: #fafafa;
-    background-color: #696969;
+    background-color: #230007;
     border: none;
     letter-spacing: 3px;
 }
@@ -70,14 +73,14 @@ body {
     margin-left: 50px;
     z-index: 20;
     color: #fafafa;
-    background-color: #696969;
+    background-color: #230007;
     letter-spacing: 3px;
     border: none;
 }
 
 .dropdown-item {
     color: #fafafa;
-    background-color: #696969;
+    background-color: #230007;
     z-index: 20;
 }
 
@@ -160,7 +163,8 @@ hr:not([size]) {
   right: 0;
   width: 100%;
   margin: 0;
-  background-color: #696969;
+  background-color: #230007;
+  border-top: solid 1px;
   z-index: 10;
 }
 
@@ -294,8 +298,8 @@ hr:not([size]) {
 }
 
 .btn-primary {
-    background-color: #696969;
-    border-color: #696969;
+    background-color: #230007;
+    border-color: #230007;
 }
 
 .btn-primary:hover {
