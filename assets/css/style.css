@@ -84,10 +84,6 @@ body {
     z-index: 20;
 }
 
-/*---------------------Misc-------------------*/
-
-
-
 /*---------------------Hero image-------------------*/
 .opaque-overlay {
     background-color:rgba(0, 0, 0, 0.7);
@@ -153,6 +149,16 @@ body {
 
 hr:not([size]) {
     height: 0;
+}
+
+a {
+    color: #DDB967;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #DDB967;
+    text-decoration: underline;
 }
 
 /*---------------------footer-------------------*/

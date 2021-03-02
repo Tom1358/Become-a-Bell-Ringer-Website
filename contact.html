@@ -45,16 +45,16 @@
             <form class="form" action="#" method="POST">
                 <div class="form-group">
                     <label for="name">Name</label>
-                    <input type="name" class="form-control" id="name" placeholder="Your name here">
+                    <input type="name" class="form-control" id="name" placeholder="Your name here" required>
                 </div> <br>
                 <div class="form-group">
                     <label for="town/city">Town/ City</label>
-                    <input type="town/city" class="form-control" id="town/city" placeholder="Your town/ city here">
+                    <input type="town/city" class="form-control" id="town/city" placeholder="Your town/ city here" required>
                 </div> <br>
                 <div class="form-group">
                     <label for="county">County</label>
-                    <select class="form-control" id="county">
-                        <option>Please select</option>
+                    <select class="form-control" id="county" required>
+                        <option value="">Please select</option>
                         <option>Derbyshire</option>
                         <option>Durham</option>
                         <option>Essex</option>
@@ -76,8 +76,8 @@
                 </div> <br>
                 <div class="form-group">
                     <label for="heard-about">How did you hear about bell ringing?</label>
-                    <select class="form-control" id="heard-about">
-                        <option>Please select</option>
+                    <select class="form-control" id="heard-about" required>
+                        <option value="">Please select</option>
                         <option>From a friend/ neighbour</option>
                         <option>From a family member</option>
                         <option>Online</option>
@@ -88,7 +88,7 @@
                 </div> <br>
                 <div class="form-group">
                     <label for="accessibility">Do you have any accessbility issues (e.g. cannot climb stairs to a belfry)?</label>
-                    <textarea class="form-control" id="accessibility" rows="2"></textarea>
+                    <textarea class="form-control" id="accessibility" rows="2" required></textarea>
                 </div> <br>
                 <button type="submit" class="btn btn-primary">Submit</button>
             </form>
