@@ -45,15 +45,15 @@
             <form class="form" action="#" method="POST">
                 <div class="form-group">
                     <label for="name">Name</label>
-                    <input type="name" class="form-control" id="name" placeholder="Your name here" required>
+                    <input name="full_name" class="form-control" id="name" placeholder="Your name here" required>
                 </div> <br>
                 <div class="form-group">
                     <label for="town/city">Town/ City</label>
-                    <input type="town/city" class="form-control" id="town/city" placeholder="Your town/ city here" required>
+                    <input name="town_city" class="form-control" id="town/city" placeholder="Your town/ city here" required>
                 </div> <br>
                 <div class="form-group">
                     <label for="county">County</label>
-                    <select class="form-control" id="county" required>
+                    <select name="county" class="form-control" id="county" required>
                         <option value="">Please select</option>
                         <option>Derbyshire</option>
                         <option>Durham</option>
@@ -76,7 +76,7 @@
                 </div> <br>
                 <div class="form-group">
                     <label for="heard-about">How did you hear about bell ringing?</label>
-                    <select class="form-control" id="heard-about" required>
+                    <select name="heard_about" class="form-control" id="heard-about" required>
                         <option value="">Please select</option>
                         <option>From a friend/ neighbour</option>
                         <option>From a family member</option>
@@ -88,9 +88,9 @@
                 </div> <br>
                 <div class="form-group">
                     <label for="accessibility">Do you have any accessbility issues (e.g. cannot climb stairs to a belfry)?</label>
-                    <textarea class="form-control" id="accessibility" rows="2" required></textarea>
+                    <textarea name="accessibility" class="form-control" id="accessibility" rows="2" required></textarea>
                 </div> <br>
-                <button type="submit" class="btn btn-primary">Submit</button>
+                <button type="submit" class="btn btn-primary"><a href="completed_form.html">Submit</a></button>
             </form>
         </div>
     </section>

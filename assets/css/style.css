@@ -20,7 +20,7 @@ body {
     height: 50px;
     background-color: #230007;
     border-bottom: solid 1px;
-    z-index: 10;
+    z-index: 20;
 }
 
 .menu {
@@ -91,8 +91,7 @@ body {
     background-position: center;
     background-size: cover;
     width: 100%;
-    height: 90%;
-    top: 50px;
+    height: 100%;
     z-index: 9;
 }
 
@@ -110,7 +109,7 @@ body {
 
 .jumbotron {
     position: fixed;
-    top: 20%;
+    top: 15%;
     left: 5%;
     right: 5%;
     color: #fafafa;
@@ -119,7 +118,7 @@ body {
 
 @media screen and (min-width: 992px) {
     .jumbotron {
-        font-size: large;    
+        font-size: 1.25rem;    
     }
 }
 
@@ -141,7 +140,17 @@ body {
     }
 }
 
-
+@media screen and (max-width: 321px) {
+    .jumbotron {
+        font-size: x-small;    
+    }
+    .lead {
+        font-size: large;
+    }
+    .my-4 {
+        display:none;
+    }
+}
 
 .lead {
     font-size: x-large;
@@ -159,6 +168,27 @@ a {
 a:hover {
     color: #DDB967;
     text-decoration: underline;
+}
+
+/*---------------------animation-------------------*/
+
+.image-pic {
+    position: absolute;
+    right:5rem;
+    bottom: 5rem;
+    height:35%;
+    z-index: 8;
+}
+
+.how-ringing-works-image {
+    height:100%;
+    border-radius: 5%;
+}
+
+@media screen and (max-width: 576px) {
+    .image-pic {
+        display: none;    
+    }
 }
 
 /*---------------------footer-------------------*/
@@ -187,7 +217,7 @@ a:hover {
 }
 
 
-/*-------------------- Gallery --------------------*/
+/*-------------------- gallery.html --------------------*/
 
 .gallery-pics {
     padding: 50px 0 60px 0;
@@ -213,7 +243,7 @@ a:hover {
 
 
 
-/*-------------------- about --------------------*/
+/*-------------------- about.html --------------------*/
 
 .row {
     margin:0;
@@ -279,7 +309,7 @@ a:hover {
     padding-bottom: 50px;
 }
 
-/*-------------------- Form --------------------*/
+/*-------------------- contact.html --------------------*/
 
 .form-header {
     padding: 100px 10px 0 10px;
@@ -303,58 +333,35 @@ a:hover {
     width: 60%;
 }
 
+@media only screen and (min-width: 768px) {
+    .form {
+        width: 500px;
+    }
+}
+
 .btn-primary {
     background-color: #230007;
     border-color: #230007;
 }
 
 .btn-primary:hover {
-    background-color: #484848;
-    border-color: #484848;
+    background-color: #7B3335;
+    border-color: #7B3335;
 }
 
-/*------------test------------------*/
+/*-------------------- completed_form.html --------------------*/
 
-/* The actual timeline (the vertical ruler) */
-.timeline {
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-/* The actual timeline (the vertical ruler) */
-.timeline::after {
-    position: absolute;
-  content: '';
-  width: 6px;
-  background-color: black;
-  top: 50px;
-  bottom: 60px;
-  margin-left: 20%;
-}
-
-/* Container around content */
-.container {
+.back-to-homepage {
     position: relative;
-    padding: 50px 0 0 50px;
-    min-width: 0px;
-    width: 50%;
-    }
-
-.container-first {
-    padding-top:
-        100px;
+    width:100%;
+    top:100px;
+    left:0;
 }
 
-/* The circles on the timeline */
-.container::after {
-  content: '';
-  position: absolute;
-  width: 25px;
-  height: 25px;
-  right: -17px;
-  background-color: white;
-  border: 4px solid #FF9F55;
-  top: 15px;
-  border-radius: 50%;
-  z-index: 1;
-  }
+.back-to-homepage-button {
+    position: absolute;
+    left:44%;
+    border: 1px solid #230007;
+    background-color: #230007;
+    color: #fff;
+}
