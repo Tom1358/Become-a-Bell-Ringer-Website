@@ -8,16 +8,11 @@ The activity would benefit from a central website that would offer a basic intro
 ## UX
 
 ### As a **potential recruit** looking at the website, I want:
+
 * Large, intuitive and easy navigation that is consistent throughout the site, so I know how to get the key information I want, and how to find out more if I want (through links to external sites, or a contact email address or phone number/ form).
 * Some basic information on the subject of bell ringing, such as key terms to know if I go to an introductory practice night in a local tower.
-* How to find local towers in my area, and contact information for the Tower Captain, if I want to attend a practice night.
-
-### As an individual **interested in a new hobby**, I want:
 * An idea of the theory and study of bell ringing, to see what I can expect to have to study.
-* Information on different skill levels, to see how I can progress if I stick with it, and an idea of how long it would take to learn different things.
-
-### As someone interested in the **social/ community** side of ringing, I want:
-* Information on the ringing community, and what bellringers do socially rather than just pull a rope, to see if it is a social scene I would be interested in.
+* Information/ ideas of what the ringing community does socially as well as ring bells, to see if it is a social scene I would be interested in.
 * A basic background into the history of ringing and how it has shaped communities.
 
 ### As a **member of the CCCBR** endorsing this website, I want:
@@ -28,7 +23,7 @@ The activity would benefit from a central website that would offer a basic intro
 ## Design
 
 ### Colour Scheme
-* The two main colours used are grey and white.
+* The two main colours used are #230007 and #DDB967 (#7B3335 used as a darker shade of the second for hover effect on a button) .
 
 ### Typography
 * The Fira Sans font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Fira Sans is a clean font that is simple and easily legible, but also classy; this was chosen as it has a professional and minimalist feel, without feeling overly showy.
@@ -39,8 +34,16 @@ The activity would benefit from a central website that would offer a basic intro
 <!-- ## Wireframes -->
 
 ## Features
-* Responsive on all device sizes
-* Interactive elements
+### Existing features
+* Responsive on all device sizes – allows users to access website in a clear, simple and accessible format on a variety of formats, including desktop/ laptop, tablet or smartphone.
+* A form that allows the user to submit their location and receive an email giving key information about local towers and tower captains if they wish to get in contact.
+### Features left to implement
+* A section on key terms of ringing, and basic theory/ campanology could be useful, to introduce potential recruits to the theories/ methods they would be expected to learn once they can handle a bell.  This would require research into what would be deemed useful knowledge as an introduction, and could include:
+    *Key terms
+    *Basic methods
+    *Audio clips of different methods
+    *The ‘about’ section which includes several key dates of ringing could be expanded if it was decided that it offered enough value to the website’s goals.
+
 
 ## Technologies Used
 * Motorola G6 – embedded camera:
@@ -65,3 +68,21 @@ The activity would benefit from a central website that would offer a basic intro
     * GitHub is used to store the projects code after being pushed from Git.
 7.	Balsamiq:
     * Balsamiq was used to create the wireframes during the design process.
+
+## Testing User Stories from User Experience (UX) Section
+### As a potential recruit looking at the website, I want:
+* Large, intuitive and easy navigation that is consistent throughout the site, so I know how to get the key information I want, and how to find out more if I want (through links to external sites, or a contact email address or phone number/ form).
+    * A simple, clear navigation bar has been created with social links on the bottom of each page to clearly indicate to the user what lies where.  There is a form to fill in that a user can submit to receive information by email about local towers/ info.
+* Some basic information on the subject of bell ringing, such as key terms to know if I go to an introductory practice night in a local tower, and an idea what I can expect to have to study.
+    * This is something that has been left as a feature left to implement, as the research that would be involved (e.g. working out what level of ringing would be appropriate to pique a potential recruit’s interest, without intimidating them) is beyond the scale of this project.
+* Information/ ideas of what the ringing community does socially as well as ring bells, to see if it is a social scene I would be interested in.
+    * A gallery of photos demonstrating the activities bell ringers take part in (meals out, drinks, group exercise) has been included to demonstrate what the social side of ringing can offer.
+* A basic background into the history of ringing and how it has shaped communities.
+    * A basic page with some key dates and facts has been included to given some background to how long ringing has been part of communities for.  An expansion of this section could be another opportunity to develop the website.
+### As a member of the CCCBR (Central Council of Church Bell Ringers) endorsing this website, I want:
+* It to provide an easily accessible hub for people to potentially find out about, and link with, their local ringing networks, which could ultimately increase the awareness of bell ringing as a hobby and increase the number of ringers.
+    * When designing the website, it was kept in mind that the most likely people looking at it probably were those already thinking of taking up ringing as a hobby (often it is taken up through contact with friends or family, or word-of-mouth).  Therefore, it was important not to include too much superfluous information which would possibly put people off; rather, a clean, simple site was designed with the ability to take people’s contact email via a form and email back key information.
+* It to be easily accessible to a range of ages and demographics – potentially children aged 11-16, university students, or older individuals in retirement.
+    * A basic, simple site was created, not one that was overly brash or ‘noisy’ but rather one that was understated; in this way it was designed to appeal to a wide age range.
+* It to have a clear, intuitive UI and provide a simple experience so people do not get overwhelmed with information.
+    * Again, a key feature was simplicity, ease-of-use and responsiveness on a range of devices so as not to prevent someone accessing or using the site purely because of their device.
