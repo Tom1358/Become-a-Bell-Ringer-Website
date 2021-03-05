@@ -9,37 +9,38 @@
     <title>Document</title>
 </head>
 <body>
-    
-    <nav>
-        <div class="background-to-nav">
-            <!--nav bar dropdown menu for mobile-->
-            <ul class="d-block d-sm-none nav nav-tabs">
-                <li class="nav-item">
-                    <a class="nav-link active dropdown dropdown-toggle" href="contact.html" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Contact</a>
-                    <div class="dropdown-menu">
-                        <a class="dropdown-item" href="index.html">Home</a>
-                        <a class="dropdown-item" href="gallery.html">Gallery</a>
-                        <a class="dropdown-item" href="about.html">About</a>
-                    </div>
-                </li>
-            </ul>
-            <!--nav bar main menu for larger screens-->
-            <ul class="d-none d-sm-block menu">
-                <li>
-                    <a href="index.html">Home</a>
-                </li>
-                <li>
-                    <a href="gallery.html">Gallery</a>
-                </li>
-                <li>
-                    <a href="about.html">About</a>
-                </li>
-                <li>
-                    <a href="contact.html" id="active">Contact</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
+    <header>
+        <nav>
+            <div class="background-to-nav">
+                <!--nav bar dropdown menu for mobile-->
+                <ul class="d-block d-sm-none nav nav-tabs">
+                    <li class="nav-item">
+                        <a class="nav-link active dropdown dropdown-toggle" href="contact.html" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Contact</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="index.html">Home</a>
+                            <a class="dropdown-item" href="gallery.html">Gallery</a>
+                            <a class="dropdown-item" href="about.html">About</a>
+                        </div>
+                    </li>
+                </ul>
+                <!--nav bar main menu for larger screens-->
+                <ul class="d-none d-sm-block menu">
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="gallery.html">Gallery</a>
+                    </li>
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+                    <li>
+                        <a href="contact.html" id="active">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
     <section>
         <!--Form - n.b. after 768px screen now reverts to 500px width to prevent getting too wide-->
         <h1 class="form-header">Interested in learning more?</h1>
@@ -94,7 +95,7 @@
                     <textarea name="accessibility" class="form-control" id="accessibility" rows="2" required></textarea>
                 </div> <br>
                 <!--below button does not link correctly to completed_form.html - known issue-->
-                <button type="submit" class="btn btn-primary"><a href="completed_form.html">Submit</a></button>
+                <button type="submit" class="btn btn-primary">Submit</button>
             </form>
         </div>
     </section>
