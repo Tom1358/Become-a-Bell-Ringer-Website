@@ -220,13 +220,18 @@ a:hover {
 /*-------------------- gallery.html --------------------*/
 
 .gallery-pics {
-    padding: 50px 0 60px 0;
+    padding: 50px 0 65px 0;
 }
 
 .image {
     width: 100%;
     padding: 5px;
     border-radius: 5%;
+}
+
+#casting {
+    width:100%;
+    height:auto;
 }
 
 @media screen and (max-width: 992px) {
