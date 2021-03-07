@@ -6,8 +6,18 @@ Bell ringing, and campanology, is a hobby that is struggling with dwindling numb
 The activity would benefit from a central website that would offer a basic introduction to the hobby, some key information about it historically, and a contact form that could provide information about opportunities in an individual's area.
 
 ## UX
+---
+### Goals 
+##### User goals 
+The central audience of this website is people who are interested in finding out how to take up bell ringing as a hobby.
+The user goal of the website would be to find out who to contact in their local area to find out information about local ringing groups.
 
-### As a **potential recruit** looking at the website, I want:
+##### Industry/ Business Goals
+The Central Council of Church Bell Ringers (CCCBR) is the primary business relating to the website.  The business goal of the website would be to provide a gateway for new recruits to try bell ringing as a hobby.
+
+---
+### User Stories
+#### As a **potential recruit** looking at the website, I want:
 
 * Large, intuitive and easy navigation that is consistent throughout the site, so I know how to get the key information I want, and how to find out more if I want (through links to external sites, or a contact email address or phone number/ form).
 * Some basic information on the subject of bell ringing, such as key terms to know if I go to an introductory practice night in a local tower.
@@ -15,23 +25,37 @@ The activity would benefit from a central website that would offer a basic intro
 * Information/ ideas of what the ringing community does socially as well as ring bells, to see if it is a social scene I would be interested in.
 * A basic background into the history of ringing and how it has shaped communities.
 
-### As a **member of the CCCBR** endorsing this website, I want:
+#### As a **member of the CCCBR** endorsing this website, I want:
 * It to provide an easily accessible hub for people to potentially find out about, and link with, their local ringing networks, which could ultimately increase the awareness of bell ringing as a bobby and increase the number of ringers.
 * It to be easily accessible to a range of ages and demographics – potentially children aged 11-16, university students, or older individuals in retirement.
 * It to have a clear, intuitive UI and provide a simple experience so people do not get overwhelmed with information.
 
+
 ## Design
-
+---
 ### Colour Scheme
-* The two main colours used are #230007 and #DDB967 (#7B3335 used as a darker shade of the second for hover effect on a button) .
-
+* The two main colours used are #230007 and #DDB967 (#7B3335 used as a darker shade of the second for hover effect on a button).  These were chosen as they provided strong contrasts for the text and images to be seen clearly, but were not obtrusive and would not detract from the main purpose of the website.  Originally I thought of simply using a light grey #696969 and white, though this did not have enough visual appeal.
+---
 ### Typography
 * The Fira Sans font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Fira Sans is a clean font that is simple and easily legible, but also classy; this was chosen as it has a professional and minimalist feel, without feeling overly showy.
-
+---
 ### Imagery
 * The large, background hero image was chosen to appeal to the key audiences (see user stories).  A variety of images showing the activity of bell ringing and also the social side was chosen for the gallery, again to appeal to a variety of people in the target audiences.
+---
+### Wireframes 
+Balsamiq was used to design the wireframes for this project.  There were the following amendments made to the original wireframes that resulted in the completed project:
+1. Home Page - an extra heading, with link to contact.html, was added, to make the goal of the website easier for users to complete.  Also, an animation of a bell being rung was added, to give a basic idea how the mechanics of a church bell work.
+2. Gallery Page - for desktops, columns were split into three, to give a satisfying sense of symmetry, and dropped to two columns for mobile.  This made the organisation of the images less chaotic and busy.
+3. About Page - the layout was changed to simply timeline on left, image on right - having a split timeline and two images in a grid, as shown in the desktop wireframe, was needlessly complex and did not look right.  The final design is less cluttered, and looks tidy and clean.
+* [Home Page for Desktop](/workspace/Milestone_One/wireframes/home_page_desktop.png)
+* [Gallery Page for Desktop](/workspace/Milestone_One/wireframes/gallery_page_desktop.png)
+* [About Page for Desktop](/workspace/Milestone_One/wireframes/about_page_desktop.png)
+* [Contact Page for Desktop](/workspace/Milestone_One/wireframes/contact_page_desktop.png)
+* [Home Page for Mobile](/workspace/Milestone_One/wireframes/home_page_mobile.png)
+* [Gallery Page for Mobile](/workspace/Milestone_One/wireframes/gallery_page_mobile.png)
+* [About Page for Mobile](/workspace/Milestone_One/wireframes/about_page_mobile.png)
+* [Contact Page for Mobile](/workspace/Milestone_One/wireframes/contact_page_mobile.png)
 
-<!-- ## Wireframes -->
 
 ## Features
 ### Existing features
