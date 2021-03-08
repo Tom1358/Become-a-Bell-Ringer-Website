@@ -6,9 +6,9 @@
 
 <!-- VIEW THE LIVE PROJECT HERE-->
 
-Bell ringing, and campanology, is a hobby that is struggling with dwindling numbers, and yet offers an experience that is surprisingly welcoming and accommodating to a range of people, particularly those who may not fit in with typical sporting or other physically demanding activities.  
+* Bell ringing, and campanology, is a hobby that is struggling with dwindling numbers, and yet offers an experience that is surprisingly welcoming and accommodating to a range of people, particularly those who may not fit in with typical sporting or other physically demanding activities.  
 The activity would benefit from a central website that would offer a basic introduction to the hobby, some key information about it historically, and a contact form that could provide information about opportunities in an individual's area.
-
+---
 ## UX
 ---
 ### Goals 
@@ -34,7 +34,7 @@ The Central Council of Church Bell Ringers (CCCBR) is the primary business relat
 * It to be easily accessible to a range of ages and demographics – potentially children aged 11-16, university students, or older individuals in retirement.
 * It to have a clear, intuitive UI and provide a simple experience so people do not get overwhelmed with information.
 
-
+---
 ## Design
 ---
 ### Colour Scheme
@@ -60,54 +60,88 @@ Balsamiq was used to design the wireframes for this project.  There were the fol
 * [About Page for Mobile](/workspace/Milestone_One/wireframes/about_page_mobile.png)
 * [Contact Page for Mobile](/workspace/Milestone_One/wireframes/contact_page_mobile.png)
 
-
+---
 ## Features
+---
 ### Existing features
-* Responsive on all device sizes – allows users to access website in a clear, simple and accessible format on a variety of formats, including desktop/ laptop, tablet or smartphone.
-* A form that allows the user to submit their location and receive an email giving key information about local towers and tower captains if they wish to get in contact.
-* (Below) A simple and clean navbar that underlines the page the user is on, and is responsive.
-
+#### On all pages:
 ![Screenshot of Navbar](/screenshots/screenshot_navbar_desktop.PNG)
-* (Below) A navbar that shrinks down for mobile devices that shows the page the user is on, with a dropdown menu to guide navigation when needed.
+* A simple and clean navbar that underlines the page the user is on, and is responsive.
 
 ![Screenshot of Navbar](/screenshots/screenshot_navbar_mobile.PNG)
-* (Below) A footer that includes links to social media sites (n.b. once developed these could link to ringing-specific pages; for now, they only go to the social media home pages).
+* A navbar that shrinks down for mobile devices that shows the page the user is on, with a dropdown menu to guide navigation when needed.
 
 ![Screenshot of Social Media Links](/screenshots/screenshot_footer_links.PNG)
+* A footer that includes links to social media sites (n.b. once developed these could link to ringing-specific pages; for now, they only go to the social media home pages).
+
+
+
+#### Home Page:
+![Screenshot of Home Page](/screenshots/screenshot_home.PNG)
+* A large hero image, to give a sense of scale of the buildings that the user could be ringing in; this image is dimmed to ensure the headlines are bold, eye-catching and easy to read.
+* A small animation in the bottom right to show the logistics of how a bell is rung.
+
+#### Gallery Page:
+![Screenshot of Gallery](/screenshots/screenshot_gallery.PNG)
+* A series of images that show a range of activities that ringers engage in, and background to ringing (such as a bell being forged).
+
+#### About Page:
+![Screenshot of About Page](/screenshots/screenshot_about.PNG)
+* A timeline with several interesting moments in the history of ringing.
+* An image of a bell being forged, showing the traditional way of making a bell.
+
+#### Contact Page:
+![Screenshot of Contact Page](/screenshots/screenshot_contact.PNG)
+* A basic form for users to give information, for an administrator to then respond to with details of the local ringing community.
+* n.b. currently the 'submit' button should go to 'completed_form.html'; however, as I have not yet learned JavaScript, it does not link.  
+
+#### Completed Form Page:
+* When the form is completed, on the final website, the user should be taken to a screen with a basic message thanking them for their interest, and with a link back to the home page.
+
+---
 ### Features left to implement
 * A section on key terms of ringing, and basic theory/ campanology could be useful, to introduce potential recruits to the theories/ methods they would be expected to learn once they can handle a bell.  This would require research into what would be deemed useful knowledge as an introduction, and could include:
-    *Key terms
-    *Basic methods
-    *Audio clips of different methods
-    *The ‘about’ section which includes several key dates of ringing could be expanded if it was decided that it offered enough value to the website’s goals.
+    * Key terms
+    * Basic methods
+    * Audio clips of different methods
+    * The ‘about’ section which includes several key dates of ringing could be expanded if it was decided that it offered enough value to the website’s goals.
+* Links to other websites of interest, such as 'Ringer's World'.  (n.b. It would need to be researched to see if this would be information overload to a potential recruit.)
 
-
+---
 ## Technologies Used
+---
+### Tools
 * Motorola G6 – embedded camera:
-    *The developer’s camera was used to take various photos of the local church to use as the Hero Image and various photos in the Gallery page of the website.
-
-## Languages Used
+    * The developer’s camera was used to take various photos of the local church to use as the Hero Image and various photos in the Gallery page of the website.
+* Git was used to handle version control.
+* GitHub was used to store and share project code.
+* Am I Responsive was used to create images in this Readme file of each page displayed on different screen sizes.
+* The Windows Snipping Tool for images in this Readme of smaller sections of website pages.
+* Balsamiq was used to create the wireframes during the design process.
+---
+### Languages Used
 * HTML5
 * CSS3
-
-## Frameworks, Libraries & Programs Used
-1. Bootstrap 5.0.0:
-    * Bootstrap was used to assist with the responsiveness and styling of the website.
+---
+### Frameworks and Libraries Used
+1. Bootstrap:
+    * used to assist with the responsiveness and styling of the website.
 2.	Hover pseudoclass in CSS:
     * Hover was used for each item in the navbar to add an underline element while being hovered over; this would add an element of responsiveness to the user whilst using the site.
 3.	Google Fonts:
     * Google fonts were used to import the Fira Sans font into the style.css file which is used on all pages throughout the project.
 4.	Font Awesome:
     * Font Awesome was used on all pages in the footer to make the links to social media more aesthetically pleasing, and to help improve the UX.
-5.	Git
-    * Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
-6.	GitHub:
-    * GitHub is used to store the projects code after being pushed from Git.
-7.	Balsamiq:
-    * Balsamiq was used to create the wireframes during the design process.
-
-## Testing User Stories from User Experience (UX) Section
-### As a potential recruit looking at the website, I want:
+---
+## Testing
+---
+### Automated Testing
+#### Validation Services
+* The W3C CSS Validation Service - Jigsaw was used for CSS code in this project, which the code passed with no errors or warnings.
+* The W3C Markup Validation Service was used for HTML code in this project, and the code passed with no errors or warnings.
+---
+### User Stories Testing
+#### As a potential recruit looking at the website, I want:
 * Large, intuitive and easy navigation that is consistent throughout the site, so I know how to get the key information I want, and how to find out more if I want (through links to external sites, or a contact email address or phone number/ form).
     * A simple, clear navigation bar has been created with social links on the bottom of each page to clearly indicate to the user what lies where.  There is a form to fill in that a user can submit to receive information by email about local towers/ info.
 * Some basic information on the subject of bell ringing, such as key terms to know if I go to an introductory practice night in a local tower, and an idea what I can expect to have to study.
@@ -116,10 +150,56 @@ Balsamiq was used to design the wireframes for this project.  There were the fol
     * A gallery of photos demonstrating the activities bell ringers take part in (meals out, drinks, group exercise) has been included to demonstrate what the social side of ringing can offer.
 * A basic background into the history of ringing and how it has shaped communities.
     * A basic page with some key dates and facts has been included to given some background to how long ringing has been part of communities for.  An expansion of this section could be another opportunity to develop the website.
-### As a member of the CCCBR (Central Council of Church Bell Ringers) endorsing this website, I want:
+
+#### As a member of the CCCBR (Central Council of Church Bell Ringers) endorsing this website, I want:
 * It to provide an easily accessible hub for people to potentially find out about, and link with, their local ringing networks, which could ultimately increase the awareness of bell ringing as a hobby and increase the number of ringers.
     * When designing the website, it was kept in mind that the most likely people looking at it probably were those already thinking of taking up ringing as a hobby (often it is taken up through contact with friends or family, or word-of-mouth).  Therefore, it was important not to include too much superfluous information which would possibly put people off; rather, a clean, simple site was designed with the ability to take people’s contact email via a form and email back key information.
 * It to be easily accessible to a range of ages and demographics – potentially children aged 11-16, university students, or older individuals in retirement.
     * A basic, simple site was created, not one that was overly brash or ‘noisy’ but rather one that was understated; in this way it was designed to appeal to a wide age range.
 * It to have a clear, intuitive UI and provide a simple experience so people do not get overwhelmed with information.
     * Again, a key feature was simplicity, ease-of-use and responsiveness on a range of devices so as not to prevent someone accessing or using the site purely because of their device.
+---
+### Manual Testing
+* ggg
+---
+### Bugs Discovered
+---
+#### Solved Bugs
+
+
+---
+#### Known Bugs
+
+---
+### Further Testing
+* All pages were viewed on all devides and orientations available on Chrome Developer Tools.
+
+---
+## Deployment
+---
+###How to Run Project Locally
+
+---
+## Credits
+---
+### Content 
+* Text, images, links and other data were sourced from the following websites:
+    * 
+    * 
+    * 
+---
+### Media 
+* Images were taken from:
+    * 
+    * 
+    * 
+---
+### Code 
+* 
+---
+### Acknowledgements
+* Special thanks to my mentor Gerry Mcbride for patiently going through my code and correcting where necessary, giving helpful ideas and direction, and keeping me informed what is expected of my website and code in industry.
+---
+
+## Disclaimer
+* Contents of this website are for educational purposes only.
