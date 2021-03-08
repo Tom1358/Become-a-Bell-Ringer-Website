@@ -144,7 +144,7 @@ Balsamiq was used to design the wireframes for this project.  There were the fol
 #### As a potential recruit looking at the website, I want:
 * Large, intuitive and easy navigation that is consistent throughout the site, so I know how to get the key information I want, and how to find out more if I want (through links to external sites, or a contact email address or phone number/ form).
     * A simple, clear navigation bar has been created with social links on the bottom of each page to clearly indicate to the user what lies where.  There is a form to fill in that a user can submit to receive information by email about local towers/ info.
-* Some basic information on the subject of bell ringing, such as key terms to know if I go to an introductory practice night in a local tower, and an idea what I can expect to have to study.
+* Some basic information on the subject of bell ringing, such as key terms to know if I go to an introductory practice night in a local tower.
     * This is something that has been left as a feature left to implement, as the research that would be involved (e.g. working out what level of ringing would be appropriate to pique a potential recruit’s interest, without intimidating them) is beyond the scale of this project.
 * Information/ ideas of what the ringing community does socially as well as ring bells, to see if it is a social scene I would be interested in.
     * A gallery of photos demonstrating the activities bell ringers take part in (meals out, drinks, group exercise) has been included to demonstrate what the social side of ringing can offer.
@@ -155,20 +155,51 @@ Balsamiq was used to design the wireframes for this project.  There were the fol
 * It to provide an easily accessible hub for people to potentially find out about, and link with, their local ringing networks, which could ultimately increase the awareness of bell ringing as a hobby and increase the number of ringers.
     * When designing the website, it was kept in mind that the most likely people looking at it probably were those already thinking of taking up ringing as a hobby (often it is taken up through contact with friends or family, or word-of-mouth).  Therefore, it was important not to include too much superfluous information which would possibly put people off; rather, a clean, simple site was designed with the ability to take people’s contact email via a form and email back key information.
 * It to be easily accessible to a range of ages and demographics – potentially children aged 11-16, university students, or older individuals in retirement.
-    * A basic, simple site was created, not one that was overly brash or ‘noisy’ but rather one that was understated; in this way it was designed to appeal to a wide age range.
+    * A basic, simple site was created, not one that was overly brash or ‘noisy’ but rather one that had a simple colour scheme and a minimalist tone, without too much clutter.  In this way it was designed to appeal to a wide age range.
 * It to have a clear, intuitive UI and provide a simple experience so people do not get overwhelmed with information.
     * Again, a key feature was simplicity, ease-of-use and responsiveness on a range of devices so as not to prevent someone accessing or using the site purely because of their device.
 ---
 ### Manual Testing
-* ggg
+* Navigation bar:
+    * From home page on the desktop view, click on each menu item and verify it links to the correct page.
+    * Reduce size of screen in Chrome Dev Tools and confirm that it reduces to a dropdown menu. (n.b. Please see bug section regarding this.)
+    * From home page on the mobile view, click on each menu item and verify it links to the correct page.
+    * From each page, click on each menu item and return to verify that the links work.
+
+* Footer links:
+    * On each page, verify that links take user in a new tab to the respecting social media site (n.b. for future scope of this project, these social media links may link to ringing-specific pages.  For now, they just go to the home pages of the respective social media site.)
+
+* Home Page:
+    * Confirm that hero image displays correctly (full width, full height, opaque overlay matches hero image size).
+    * Resize screen to confirm that jumbotron is viewable in all Chrome Dev Tools media formats, and the text is an appropriate size for the media.
+
+* Gallery:
+    * Confirm that images showing are all same size and line up correctly. There should be no overlap of pictures at any screen size, and no differently-sized images. (n.b. Please see bug section regarding this.)
+
+* About Page:
+    * Confirm that timeline scales appropriately for device, writing is an appropriate size (legible, but not huge).
+    * Confirm that image on right side of page scales appropriately in relation to timeline.
+
+* Contact Page:
+    * Click submit, and confirm that the form requires all fields to be filled in.  Fill in one field at a time and click submit to ensure that they are all required.
+    * Fill in all information in form and click submit. (n.b. see bug section.)
+
 ---
 ### Bugs Discovered
 ---
 #### Solved Bugs
+##### Dropdown menu on Home Page on mobile view 
+![Screenshot of Navbar Bug](/screenshots/screenshot_navbar_bug.PNG)
+* Although I had added the z-index attribute to the class 'dropdown-item' in style.css, it was not having an effect, and the menu was still dropping behind the jumbotron text.
+* The solution was use Dev Tools to check each element in the screen and work out what required the z-index attribute adding; it turned out that it was actually the 'background-to-nav' class.  Once this had a higher z-index value than the jumbotron, it was fixed.
 
-
+##### Unaligned Gallery images
+* In gallery.html, originally the coluns of images did not have a gap between them, and because the images were different sizes, they all were staggered slightly, which gave an unsatisfying and jagged effect.
+* To solve this, I tried changing the width and height to various percentages for each picture, but it did not work.  The way I resolved the issue was to amend the actual size of the images themselves to make them all the same.
 ---
 #### Known Bugs
+* Sometimes on unconventional monitor ratios, the jumbotron on the Homepage may have the bottom cut off.  I have tried to make this as rare as possible by investigating each device in Chrome Dev Tools to check that all the information fits appropriately, which it does.
+* The submit button when completing the form on the Contact page does not link to the completed_form.html page as it should.  Unfortunately I have not studied JavaScript yet, so this feature is beyond the scope of this project.
 
 ---
 ### Further Testing
@@ -177,29 +208,35 @@ Balsamiq was used to design the wireframes for this project.  There were the fol
 ---
 ## Deployment
 ---
-###How to Run Project Locally
+### How to Run Project Locally
+* To clone this project into Gitpod you will need:
+    1. A Github account. [Create a Github account here](https://github.com/)
+    2. Google Chrome browser.
+* Then, follow these steps:
+    1. Install the [Gitpod Browser Extensions for Chrome](https://www.gitpod.io/docs/browser-extension/)
+    2. Restart your browser.
+    3. Log into Gitpod with your account.
+    4. Navigate to the [Project Github repository](https://github.com/Tom1358/Milestone_One)
+    5. Click the green 'Gitpod' button.  This will trigger a new Gitpod workspace, created from the code in Github, where you can work locally.
 
 ---
 ## Credits
 ---
 ### Content 
-* Text, images, links and other data were sourced from the following websites:
-    * 
-    * 
-    * 
+* Information for the timeline was taken from https://www.bellringing.org/, which has a much more comprehensive overview of ringing as a whole, and is well worth a visit.
 ---
 ### Media 
-* Images were taken from:
-    * 
-    * 
-    * 
+* The bell ropes, bell casting and etching of ringers were taken from www.bio.utexas.edu/faculty/bryant/
+* Images of people laughing, eating and drinking were taken from www.pexels.com 
+* Images of a church were taken by myself.
 ---
 ### Code 
-* 
+* The opaque overlay code was taken from [W3Schools](https://www.w3schools.com/howto/howto_css_overlay.asp) and heavily adapted.
+* The gallery layout was inspired by the Code:Institute instructor Matt Rudge's 'Love Running' masonry gallery; the code was then heavily adapted.
 ---
 ### Acknowledgements
 * Special thanks to my mentor Gerry Mcbride for patiently going through my code and correcting where necessary, giving helpful ideas and direction, and keeping me informed what is expected of my website and code in industry.
 ---
 
 ## Disclaimer
-* Contents of this website are for educational purposes only.
+* The contents of this website are for educational purposes only.
