@@ -1,5 +1,9 @@
 # Become a Bell Ringer Website
 
+## Introduction
+
+![Screenshot of Homepage](/screenshots/screenshot_home.PNG)
+
 <!-- VIEW THE LIVE PROJECT HERE-->
 
 Bell ringing, and campanology, is a hobby that is struggling with dwindling numbers, and yet offers an experience that is surprisingly welcoming and accommodating to a range of people, particularly those who may not fit in with typical sporting or other physically demanding activities.  
