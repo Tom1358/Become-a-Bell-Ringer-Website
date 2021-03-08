@@ -65,6 +65,15 @@ Balsamiq was used to design the wireframes for this project.  There were the fol
 ### Existing features
 * Responsive on all device sizes – allows users to access website in a clear, simple and accessible format on a variety of formats, including desktop/ laptop, tablet or smartphone.
 * A form that allows the user to submit their location and receive an email giving key information about local towers and tower captains if they wish to get in contact.
+* (Below) A simple and clean navbar that underlines the page the user is on, and is responsive.
+
+![Screenshot of Navbar](/screenshots/screenshot_navbar_desktop.PNG)
+* (Below) A navbar that shrinks down for mobile devices that shows the page the user is on, with a dropdown menu to guide navigation when needed.
+
+![Screenshot of Navbar](/screenshots/screenshot_navbar_mobile.PNG)
+* (Below) A footer that includes links to social media sites (n.b. once developed these could link to ringing-specific pages; for now, they only go to the social media home pages).
+
+![Screenshot of Social Media Links](/screenshots/screenshot_footer_links.PNG)
 ### Features left to implement
 * A section on key terms of ringing, and basic theory/ campanology could be useful, to introduce potential recruits to the theories/ methods they would be expected to learn once they can handle a bell.  This would require research into what would be deemed useful knowledge as an introduction, and could include:
     *Key terms
