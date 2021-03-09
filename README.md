@@ -17,7 +17,7 @@ The central audience of this website is people who are interested in finding out
 The user goal of the website would be to find out who to contact in their local area to find out information about local ringing groups.
 
 ##### Industry/ Business Goals
-The Central Council of Church Bell Ringers (CCCBR) is the primary business relating to the website.  The business goal of the website would be to provide a gateway for new recruits to try bell ringing as a hobby.
+The Central Council of Church Bell Ringers (CCCBR) is the primary business relating to the website.  The business goal of the website would be to provide a gateway for new recruits to try bell ringing as a hobby, and eventually build up recruitment numbers.
 
 ---
 ### User Stories
@@ -92,8 +92,7 @@ Balsamiq was used to design the wireframes for this project.  There were the fol
 
 #### Contact Page:
 ![Screenshot of Contact Page](/screenshots/screenshot_contact.PNG)
-* A basic form for users to give information, for an administrator to then respond to with details of the local ringing community.
-* n.b. currently the 'submit' button should go to 'completed_form.html'; however, as I have not yet learned JavaScript, it does not link.  
+* A basic form for users to give information, for an administrator to then respond to with details of the local ringing community.  (n.b. Currently the 'submit' button should go to 'completed_form.html'; however, as I have not yet learned JavaScript, it does not link.)
 
 #### Completed Form Page:
 * When the form is completed, on the final website, the user should be taken to a screen with a basic message thanking them for their interest, and with a link back to the home page.
@@ -226,13 +225,14 @@ Balsamiq was used to design the wireframes for this project.  There were the fol
 * Information for the timeline was taken from https://www.bellringing.org/, which has a much more comprehensive overview of ringing as a whole, and is well worth a visit.
 ---
 ### Media 
-* The bell ropes, bell casting and etching of ringers were taken from www.bio.utexas.edu/faculty/bryant/
+* Images of bell ropes, bell casting and etching of ringers were taken from www.bio.utexas.edu/faculty/bryant/
 * Images of people laughing, eating and drinking were taken from www.pexels.com 
 * Images of a church were taken by myself.
 ---
 ### Code 
 * The opaque overlay code was taken from [W3Schools](https://www.w3schools.com/howto/howto_css_overlay.asp) and heavily adapted.
 * The gallery layout was inspired by the Code:Institute instructor Matt Rudge's 'Love Running' masonry gallery; the code was then heavily adapted.
+* The Readme file's layout, and in particular the deployment instructions, were based on Code: Institute's Anna Greave's Readme for her website, viewable [here](https://github.com/AJGreaves/portrait-artist).
 ---
 ### Acknowledgements
 * Special thanks to my mentor Gerry Mcbride for patiently going through my code and correcting where necessary, giving helpful ideas and direction, and keeping me informed what is expected of my website and code in industry.
