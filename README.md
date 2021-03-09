@@ -138,6 +138,11 @@ Balsamiq was used to design the wireframes for this project.  There were the fol
 #### Validation Services
 * The W3C CSS Validation Service - Jigsaw was used for CSS code in this project, which the code passed with no errors or warnings.
 * The W3C Markup Validation Service was used for HTML code in this project, and the code passed with no errors or warnings.
+* In Chrome Developer Tools, Lighthouse reports were generated to see if there were any ways that the website could be optimised or enhanced.
+    * [Homepage Lighthouse Summary](/workspace/Milestone_One/screenshots/screenshot_lighthouse.PNG)
+    * [Gallery Page Lighthouse Summary](/workspace/Milestone_One/screenshots/screenshot_lighthouse_gallery.PNG)
+    * [About Page Lighthouse Summary](/workspace/Milestone_One/screenshots/screenshot_lighthouse_about.PNG)
+    * [Contact Page Lighthouse Summary](/workspace/Milestone_One/screenshots/screenshot_lighthouse_contact.PNG)
 ---
 ### User Stories Testing
 #### As a potential recruit looking at the website, I want:
