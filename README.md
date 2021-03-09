@@ -4,8 +4,6 @@
 
 ![Screenshot of Homepage](/screenshots/screenshot_home.PNG)
 
-<!-- VIEW THE LIVE PROJECT HERE-->
-
 * Bell ringing, and campanology, is a hobby that is struggling with dwindling numbers, and yet offers an experience that is surprisingly welcoming and accommodating to a range of people, particularly those who may not fit in with typical sporting or other physically demanding activities.  
 The activity would benefit from a central website that would offer a basic introduction to the hobby, some key information about it historically, and a contact form that could provide information about opportunities in an individual's area.
 ---
@@ -176,6 +174,7 @@ Balsamiq was used to design the wireframes for this project.  There were the fol
 * Home Page:
     * Confirm that hero image displays correctly (full width, full height, opaque overlay matches hero image size).
     * Resize screen to confirm that jumbotron is viewable in all Chrome Dev Tools media formats, and the text is an appropriate size for the media.
+    * Due to the hero image being behind an opaque background that serves to dim it, by definition I found that an alt attribute would not work, as the image is actually a background image in style.css.  It seems there is a debate about whether background images actually need alt attributes - according to the W3 Markup Validation Service, one was not needed here, and according to [this article by Christian Heilmann](http://christianheilmann.com/2009/02/25/so-how-do-you-add-alternative-text-to-background-images/), they are not necessary as they only add aesthetic value.
 
 * Gallery:
     * Confirm that images showing are all same size and line up correctly. There should be no overlap of pictures at any screen size, and no differently-sized images. (n.b. Please see bug section regarding this.)
