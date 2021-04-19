@@ -317,6 +317,13 @@ a:hover {
     padding-bottom: 50px;
 }
 
+/*-------------------- audio --------------------*/
+
+#audio {
+    position: relative;
+    bottom: 5px;
+}
+
 /*-------------------- contact.html --------------------*/
 
 .form-header {
