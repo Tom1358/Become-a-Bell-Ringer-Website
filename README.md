@@ -211,6 +211,15 @@ Balsamiq was used to design the wireframes for this project.  There were the fol
 ---
 ## Deployment
 ---
+### Github pages
+* The project was deployed to Github Pages using the following steps:
+    1. Log in to Github and navigate to the [Github repository](https://github.com/) 
+    2. Under the repository name, click 'Settings'.
+    3. In the left sidebar, click 'Pages'.
+    4. Under 'Github Pages', click the 'None' dropdown arrow, and choose the Master branch.
+    5. Click Save.
+    6. The site is then ready to be published at the link.
+---
 ### How to Run Project Locally
 * To clone this project into Gitpod you will need:
     1. A Github account. [Create a Github account here](https://github.com/)
@@ -232,11 +241,13 @@ Balsamiq was used to design the wireframes for this project.  There were the fol
 * Images of bell ropes, bell casting and etching of ringers were taken from www.bio.utexas.edu/faculty/bryant/
 * Images of people laughing, eating and drinking were taken from www.pexels.com 
 * Images of a church were taken by myself.
+* Audio of Plain Bob Minor was taken from Wikipedia: https://en.wikipedia.org/wiki/Change_ringing#Plain_Bob 
 ---
 ### Code 
 * The opaque overlay code was taken from [W3Schools](https://www.w3schools.com/howto/howto_css_overlay.asp) and heavily adapted.
 * The gallery layout was inspired by the Code:Institute instructor Matt Rudge's 'Love Running' masonry gallery; the code was then heavily adapted.
-* The Readme file's layout, and in particular the deployment instructions, were based on Code: Institute's Anna Greave's Readme for her website, viewable [here](https://github.com/AJGreaves/portrait-artist).
+* The Readme file's layout was based on Code: Institute's Anna Greave's Readme for her website, viewable [here](https://github.com/AJGreaves/portrait-artist).
+* The deployment instructions were based on those from the GitHub docs, viewable [here](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site).
 ---
 ### Acknowledgements
 * Special thanks to my mentor Gerry Mcbride for patiently going through my code and correcting where necessary, giving helpful ideas and direction, and keeping me informed what is expected of my website and code in industry.
