@@ -302,7 +302,7 @@ a:hover {
 .about_image {
     width: 100%;
     position: relative;
-    top:10vh;
+    top:3vh;
     padding-bottom:60px;
     }
 }
@@ -317,6 +317,11 @@ a:hover {
     padding-bottom: 50px;
 }
 
+/*-------------------- audio --------------------*/
+
+#audio {
+    margin-top: 60px;
+}
 
 /*-------------------- contact.html --------------------*/
 
