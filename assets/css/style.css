@@ -319,8 +319,13 @@ a:hover {
 
 /*-------------------- audio --------------------*/
 
-#audio {
+.audio {
     margin-top: 60px;
+}
+
+.audio_label {
+    display: inline-block;
+    margin-left: 3rem;
 }
 
 /*-------------------- contact.html --------------------*/
