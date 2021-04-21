@@ -4,7 +4,7 @@
 
 ![Screenshot of Homepage](/screenshots/screenshot_home.PNG)
 
-Bell ringing, and campanology, is a hobby that is struggling with dwindling numbers, and yet offers an experience that is surprisingly welcoming and accommodating to a range of people, particularly those who may not fit in with typical sporting or other physically demanding activities.  
+* Bell ringing, and campanology, is a hobby that is struggling with dwindling numbers, and yet offers an experience that is surprisingly welcoming and accommodating to a range of people, particularly those who may not fit in with typical sporting or other physically demanding activities.  
 The activity would benefit from a central website that would offer a basic introduction to the hobby, some key information about it historically, and a contact form that could provide information about opportunities in an individual's area.
 ---
 ## UX
