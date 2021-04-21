@@ -48,7 +48,7 @@ The Central Council of Church Bell Ringers (CCCBR) is the primary business relat
 Balsamiq was used to design the wireframes for this project.  There were the following amendments made to the original wireframes that resulted in the completed project:
 1. Home Page - an extra heading, with link to contact.html, was added, to make the goal of the website easier for users to complete.  Also, an animation of a bell being rung was added, to give a basic idea how the mechanics of a church bell work.
 2. Gallery Page - for desktops, columns were split into three, to give a satisfying sense of symmetry, and dropped to two columns for mobile.  This made the organisation of the images less chaotic and busy.
-3. About Page - the layout was changed to simply timeline on left, image on right - having a split timeline and two images in a grid, as shown in the desktop wireframe, was needlessly complex and did not look right.  The final design is less cluttered, and looks tidy and clean.
+3. About Page - the layout was changed to simply timeline on left, image on right - having a split timeline and two images in a grid, as shown in the desktop wireframe, was needlessly complex and did not look right.  The final design is less cluttered, and looks tidy and clean.  Also an audio clip was added for more variety of media.
 * [Home Page for Desktop](/workspace/Milestone_One/wireframes/home_page_desktop.png)
 * [Gallery Page for Desktop](/workspace/Milestone_One/wireframes/gallery_page_desktop.png)
 * [About Page for Desktop](/workspace/Milestone_One/wireframes/about_page_desktop.png)
@@ -87,6 +87,7 @@ Balsamiq was used to design the wireframes for this project.  There were the fol
 ![Screenshot of About Page](/screenshots/screenshot_about.PNG)
 * A timeline with several interesting moments in the history of ringing.
 * An image of a bell being forged, showing the traditional way of making a bell.
+* Above the image, an audio clip of the method Plain Bob Minor, on 6 bells.
 
 #### Contact Page:
 ![Screenshot of Contact Page](/screenshots/screenshot_contact.PNG)
@@ -246,7 +247,7 @@ Balsamiq was used to design the wireframes for this project.  There were the fol
 ### Code 
 * The opaque overlay code was taken from [W3Schools](https://www.w3schools.com/howto/howto_css_overlay.asp) and heavily adapted.
 * The gallery layout was inspired by the Code:Institute instructor Matt Rudge's 'Love Running' masonry gallery; the code was then heavily adapted.
-* The Readme file's layout was based on Code: Institute's Anna Greave's Readme for her website, viewable [here](https://github.com/AJGreaves/portrait-artist).
+* The Readme file's structure was based on, and adapted from, Code: Institute's Anna Greave's Readme for her website, viewable [here](https://github.com/AJGreaves/portrait-artist).
 * The deployment instructions were based on those from the GitHub docs, viewable [here](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site).
 ---
 ### Acknowledgements
