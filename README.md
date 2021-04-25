@@ -200,6 +200,11 @@ Balsamiq was used to design the wireframes for this project.  There were the fol
 ##### Unaligned Gallery images
 * In gallery.html, originally the coluns of images did not have a gap between them, and because the images were different sizes, they all were staggered slightly, which gave an unsatisfying and jagged effect.
 * To solve this, I tried changing the width and height to various percentages for each picture, but it did not work.  The way I resolved the issue was to amend the actual size of the images themselves to make them all the same.
+
+##### Image links in README.md did not link to images
+* In README.md, I found that once the website had been made live, the README.md image links to the wireframes and Lighthouse did not work.
+* To solve this, I researched the cause, which was that the links were for the working page in Gitpod; once it was live, they did not work, as the link was not to the image saved in GutHub.  I copied the image URL from GitHub, pasted this into the link in the README.md file, and they worked.
+
 ---
 #### Known Bugs
 * Sometimes on unconventional monitor ratios, the jumbotron on the Homepage may have the bottom cut off.  I have tried to make this as rare as possible by investigating each device in Chrome Dev Tools to check that all the information fits appropriately, which it does.
