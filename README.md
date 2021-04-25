@@ -49,14 +49,14 @@ Balsamiq was used to design the wireframes for this project.  There were the fol
 1. Home Page - an extra heading, with link to contact.html, was added, to make the goal of the website easier for users to complete.  Also, an animation of a bell being rung was added, to give a basic idea how the mechanics of a church bell work.
 2. Gallery Page - for desktops, columns were split into three, to give a satisfying sense of symmetry, and dropped to two columns for mobile.  This made the organisation of the images less chaotic and busy.
 3. About Page - the layout was changed to simply timeline on left, image on right - having a split timeline and two images in a grid, as shown in the desktop wireframe, was needlessly complex and did not look right.  The final design is less cluttered, and looks tidy and clean.  Also an audio clip was added for more variety of media.
-* [Home Page for Desktop](/wireframes/home_page_desktop.png)
-* [Gallery Page for Desktop](/wireframes/gallery_page_desktop.png)
-* [About Page for Desktop](/wireframes/about_page_desktop.png)
-* [Contact Page for Desktop](/wireframes/contact_page_desktop.png)
-* [Home Page for Mobile](/wireframes/home_page_mobile.png)
-* [Gallery Page for Mobile](/wireframes/gallery_page_mobile.png)
-* [About Page for Mobile](/wireframes/about_page_mobile.png)
-* [Contact Page for Mobile](/wireframes/contact_page_mobile.png)
+* [Home Page for Desktop](https://github.com/Tom1358/Milestone_One/blob/master/wireframes/home_page_desktop.png?raw=true)
+* [Gallery Page for Desktop](https://github.com/Tom1358/Milestone_One/blob/master/wireframes/gallery_page_desktop.png?raw=true)
+* [About Page for Desktop](https://github.com/Tom1358/Milestone_One/blob/master/wireframes/about_page_desktop.png?raw=true)
+* [Contact Page for Desktop](https://github.com/Tom1358/Milestone_One/blob/master/wireframes/contact_page_desktop.png?raw=true)
+* [Home Page for Mobile](https://github.com/Tom1358/Milestone_One/blob/master/wireframes/home_page_mobile.png?raw=true)
+* [Gallery Page for Mobile](https://github.com/Tom1358/Milestone_One/blob/master/wireframes/gallery_page_mobile.png?raw=true)
+* [About Page for Mobile](https://github.com/Tom1358/Milestone_One/blob/master/wireframes/about_page_mobile.png?raw=true)
+* [Contact Page for Mobile](https://github.com/Tom1358/Milestone_One/blob/master/wireframes/contact_page_mobile.png?raw=true)
 
 ---
 ## Features
